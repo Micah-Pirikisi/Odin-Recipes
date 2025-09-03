@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0f0f0;
+    background-color: #ffedc3e3;
     color: #333;
 }
 
@@ -35,4 +35,16 @@ a {
 
 a:hover {
     color: #007acc;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 1.5em;
+        align-items: center;
+    }
 }
